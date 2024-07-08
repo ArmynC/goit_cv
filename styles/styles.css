@@ -1,15 +1,10 @@
+/* Web CV styling */
+
 body {
     font-family: "Montserrat", sans-serif;
     font-optical-sizing: auto;
     font-weight: 400;
     font-style: normal;
-}
-
-.about-me-section {
-}
-
-.sidebar-section {
-    background-color: #DFEEFF;
 }
 
 .web-wrapper {
@@ -19,6 +14,94 @@ body {
     margin: 40px auto;
 }
 
+/* Sidebar styles */
+.sidebar-section {
+    background-color: #DFEEFF;
+}
+
+.sidebar-image {
+    margin-top: 40px;
+}
+
+.contacts-container {
+    padding-left: 40px
+}
+
+.contacts-header {
+    font-weight: 700;
+    font-size: 22px;
+    color: #161d2a;
+}
+
+.contacts-item {
+    font-weight: 700;
+    font-size: 14px;
+    line-height: 24px;
+    color: #161d2a;
+}
+
+.contacts-phone {
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 24px; 
+    color: #4489ff;
+    text-decoration: none;
+    margin-left: 10px;
+}
+
+.contacts-email {
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 24px; 
+    color: #4489ff;
+    margin-left: 10px;
+}
+
+.contacts-element {
+    margin-top: -12px;
+}
+
+.tech-skills-section {
+    padding-left: 40px;
+    margin-top: 40px;
+}
+
+.tech-skills-header {
+    font-weight: 700;
+    font-size: 22px;
+    color: #161d2a;
+}
+
+.tech-skills-list {
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 24px;
+    color: #161d2a;
+    margin-top: -12px;
+    margin-left: -16px;
+}
+
+.soft-skills-section {
+    padding-left: 40px;
+    margin-top: 40px;
+}
+
+.soft-skills-header {
+    font-weight: 700;
+    font-size: 22px;
+    color: #161d2a;
+}
+
+.soft-skills-list {
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 24px; 
+    color: #161d2a;
+    margin-top: -12px;
+    margin-left: -16px;
+}
+
+/* Main content styles */
 .right-side-container {
     padding-left: 8px;
 }
