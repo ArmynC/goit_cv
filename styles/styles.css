@@ -5,6 +5,7 @@ body {
     font-optical-sizing: auto;
     font-weight: 400;
     font-style: normal;
+    background-color: #F6F6FA;
 }
 
 .web-wrapper {
@@ -12,6 +13,7 @@ body {
     flex-direction: row-reverse;
     width: 1200px;
     margin: 40px auto;
+    background-color: #FFFFFF;
 }
 
 /* Sidebar styles */
@@ -104,4 +106,106 @@ body {
 /* Main content styles */
 .right-side-container {
     padding-left: 8px;
+    padding-top: 80px;
+    padding-right: 40px;
+    padding-bottom: 180px;
+}
+
+.about-me-profession {
+    font-weight: 700;
+    font-size: 14px;
+    color: #000;
+}
+
+.about-me-name {
+    font-weight: 700;
+    font-size: 45px;
+    color: #000;
+    margin-top: -10px;
+}
+
+.about-me-description{
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 24px; 
+    color: #595959;
+    margin-top: -25px
+}
+
+.projects-section {
+    margin-top: 45px;
+}
+
+.projects-header {
+    font-weight: 700;
+    font-size: 22px;
+    color: #000;
+}
+
+.projects-list {
+    font-weight: 700;
+    font-size: 14px;
+    line-height: 24px; 
+    color: #000;
+    margin-left: -20px;
+    margin-top: -15px;
+}
+
+.projects-name {
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 24px; 
+    text-decoration: underline;
+    text-decoration-skip-ink: none;
+    color: #595959;
+}
+
+.projects-info {
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 24px; 
+    color: #000;
+}
+
+.work-experience-section{
+    margin-top: 40px;
+}
+
+.work-experience-header{
+    font-weight: 700;
+    font-size: 22px;
+    color: #000;
+}
+
+.company-container {
+    margin-top: 5px;
+}
+
+.company-name {
+    font-weight: 700;
+    font-size: 16px;
+    color: #000;
+}
+
+.company-info {
+    font-weight: 700;
+    font-size: 16px;
+    color: #6096ff;
+    margin-left: 15px;
+}
+
+.company-time {
+    font-weight: 400;
+    font-size: 12px;
+    color: #a8a8a8;
+    margin-top: -5px;
+}
+
+.company-elements-list {
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 24px; 
+    color: #595959;
+    margin-left: -20px;
+    margin-top: -5px;
 }
