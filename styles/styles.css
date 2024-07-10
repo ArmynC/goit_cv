@@ -178,7 +178,7 @@ body {
 }
 
 .company-container {
-    margin-top: 5px;
+    margin-top: 0px;
 }
 
 .company-name {
@@ -209,3 +209,39 @@ body {
     margin-left: -20px;
     margin-top: -5px;
 }
+
+.education-section {
+    margin-top: 40px;
+}
+
+.education-header {
+    font-weight: 700;
+    font-size: 22px;
+    color: #000;
+    margin-bottom: 15px;
+}
+
+.education-container {
+    margin-top: 0px;
+}
+
+.education-name {
+    font-weight: 700;
+    font-size: 16px;
+    color: #6096ff;
+}
+
+.education-profession {
+    font-weight: 700;
+    font-size: 14px;
+    color: #000;
+    margin-top: -10px;
+}
+
+.education-time {
+    font-weight: 400;
+    font-size: 12px;
+    color: #a8a8a8;
+    margin-top: -15px;
+}
+
